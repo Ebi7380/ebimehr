@@ -1,4 +1,4 @@
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/ziaeimobin/experm/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Ebi7380/ebimehr/master/install.sh)
 ```
