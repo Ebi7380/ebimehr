@@ -115,7 +115,7 @@
                 return app.subSettings.subJsonURI+subID;
             },
             genSubAnti(subID) {
-                return "https://dl.separ.top/product/"+subID;
+                return "https://crm.ebimehr.click/mehr/"+subID;
             },
       revertOverflow() {
         const elements = document.querySelectorAll(".qr-tag");
@@ -138,7 +138,7 @@
                 qrModal.subId = qrModal.client.subId;
                 this.setQrCode("qrCode-sub", this.genSubLink(qrModal.subId));
                 this.setQrCode("qrCode-subJson", this.genSubJsonLink(qrModal.subId));
-                this.setQrCode("qrCode-subAnti", "https://dl.separ.top/product/"+qrModal.subId);
+                this.setQrCode("qrCode-subAnti", "https://crm.ebimehr.click/mehr/"+qrModal.subId);
             }
       qrModal.qrcodes.forEach((element, index) => {
         this.setQrCode("qrCode-" + index, element.link);
